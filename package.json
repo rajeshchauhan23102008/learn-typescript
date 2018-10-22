@@ -1,0 +1,15 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "learn typescript language by this project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "rajesh chauhan",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
