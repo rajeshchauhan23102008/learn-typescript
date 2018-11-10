@@ -1,3 +1,4 @@
+"use strict";
 /* SECTION 5 - CLASSES */
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
