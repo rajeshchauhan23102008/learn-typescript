@@ -1,21 +1,4 @@
-var MyMath;
-(function (MyMath) {
-    var MyCircle;
-    (function (MyCircle) {
-        var PI = 3.14;
-        function calcCircle(diameter) {
-            return diameter * PI;
-        }
-        MyCircle.calcCircle = calcCircle;
-    })(MyCircle = MyMath.MyCircle || (MyMath.MyCircle = {}));
-})(MyMath || (MyMath = {}));
-var MyMath;
-(function (MyMath) {
-    function calcRectangle(length, width) {
-        return length * width;
-    }
-    MyMath.calcRectangle = calcRectangle;
-})(MyMath || (MyMath = {}));
+"use strict";
 /* SECTION 6- Namespaces & Modules */
 /// <reference path='section6-namespace-circle.ts' /> 
 /// <reference path='section6-namespace-rectangle.ts' />
