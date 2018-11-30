@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +15,22 @@
     <!-- <script src="./node_modules/systemjs/dist/system.js"></script> -->
     <!-- <script src="./section7-interface.js"></script> -->
     <!-- <script src="./section8-generic.js"></script> -->
-    <script src="./section9-decorators.js"></script>
+    <!-- <script src="./section9-decorators.js"></script> -->
+    <!-- <script src="./section10-jslibs.js"></script> -->
     <title>Learn TypeScipt</title>
 </head>
+
 <body>
     This web page is hosted on simple lite weight npm web server called "lite-server" created by developer "John Papa"
 
+    <div id="testdiv"> This Div background color will be changed by jquery written
+        in Typescript file!!!
+    </div>
     <!-- <script>
         SystemJS.config({
+            map: {
+                jquery: "./node_modules/jquery/dist/jquery.js"
+            },
             baseURL: "./section6-namespaces-modules/",
             packages: {
                 "./section6-namespaces-modules/": {
@@ -32,6 +40,8 @@
         });
         SystemJS.import("section6-module.js");
     </script> -->
-    
+
+    <script src="./dist/bundle.js"></script>
 </body>
+
 </html>
